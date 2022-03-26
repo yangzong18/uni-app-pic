@@ -2,9 +2,9 @@
 
 ## 接口信息
 
-推荐: http://service.picasso.adesk.com/v3/homepage/vertical
-专辑: http://service.picasso.adesk.com/v1/wallpaper/album
-分类: http://service.picasso.adesk.com/v1/vertical/category
+### 推荐: http://service.picasso.adesk.com/v3/homepage/vertical
+### 专辑: http://service.picasso.adesk.com/v1/wallpaper/album
+### 分类: http://service.picasso.adesk.com/v1/vertical/category
 
 ### 推荐页面
 ![Alt][recommend]
