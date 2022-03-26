@@ -19,7 +19,12 @@
 
     <!-- 列表开始 -->
     <view class="album_list">
-      <view class="album_item" v-for="item in album" :key="item.id">
+      <navigator
+        class="album_item"
+        v-for="item in album"
+        :key="item.id"
+        :url="`/pages/album/index?id=${item.id}`"
+      >
         <view class="album_img">
           <img :src="item.cover" alt mode="aspectFill" />
         </view>
@@ -30,7 +35,7 @@
             <view class="album_attention">关注</view>
           </view>
         </view>
-      </view>
+      </navigator>
     </view>
   </scroll-view>
 </template>

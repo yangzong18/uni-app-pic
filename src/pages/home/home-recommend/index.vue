@@ -2,9 +2,9 @@
   <scroll-view scroll-y class="recommend_view" @scrolltolower="handleToLower">
     <!-- 推荐开始 -->
     <view class="recommend_wrap">
-      <view class="recommend_item" v-for="item in recommends" :key="item.id">
+      <navigator class="recommend_item" v-for="item in recommends" :key="item.id" :url="`/pages/album/index?id=${item.target}`">
         <img :src="item.thumb" mode="widthFix" />
-      </view>
+      </navigator>
     </view>
     <!-- 月份 -->
     <view class="months_wrap" v-if="recommends.length > 0">
