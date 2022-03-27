@@ -1,13 +1,9 @@
 <template>
-  <view>搜索</view>
+  <view>search</view>
 </template>
 
 <script>
-export default {
-  name: ''
-
-}
+export default {};
 </script>
 
-<style lang='scss'>
-</style>
+<style></style>

@@ -52,7 +52,11 @@
 
 <script>
 import moment from 'moment'
+import goDetail from '../../components/goDetail.vue'
 export default {
+  components:{
+    goDetail
+  },
   data () {
     return {
       recommends: [],
